@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width, initial-scale=1.0">
+    <title>Zajęcia 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    function displayData() {
+        //funkcja getElementById("").value; zwróci zawartość inputa
+        var name = document.getElementById("name").value;
+        var age = document.getElementById("age").value;
+        var password = document.getElementById("name").value;
+
+        alert("Imię:" + name
+            + "\nWiek: " + age
+            + "\nHasło: " + password);
+    }
+
+</script>
+
+<body>
+    <!-- Deklaracja formularza -->
+    <h3>Dane osobowe</h3>
+    <form>
+        Imię<br>
+        <input type="text" id="name">
+
+        <br><br>
+
+        Wiek<br>
+        <input type="number" id="age" required>
+
+        <br><br>
+
+        Hasło<br>
+        <input type="password" id="password">
+
+        <br><br>
+
+        <!-- <button type="button" onclick="displayData();">Przywitaj się</button> -->
+
+        <h3>Płeć</h3>
+        <input type="radio" name="gender" id="genderMan">Mężczyzna<br>
+        <input type="radio" name="gender" id="genderWoman">Kobieta<br>
+        <input type="radio" name="gender" id="genderOther">Inna 
+
+        <h3>Zainteresowania</h3>
+        <input type="checkbox" name="hobby" id="hobbySport"> Sport<br>
+        <input type="checkbox" name="hobby" id="hobbyTech"> Technologia<br>
+        <input type="checkbox" name="hobby" id="hobbyMusic"> Muzyka
+
+        <br><br><input type="submit">
+
+        <br><br>
+
+        <input type="color">
+
+    </form>
+</body>
+</html>

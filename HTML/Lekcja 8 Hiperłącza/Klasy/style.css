@@ -1,0 +1,15 @@
+/* Klasa CSS */
+.wyroznienie{
+    /* Parametr ustalający grubość czcionki*/
+    font-weight: bold;
+    color: maroon;
+    font-size: 15pt;
+}
+
+.naglowek {
+    color: red;
+}
+
+h2.naglowek.klasa2 {
+    color: black;
+}

@@ -1,0 +1,82 @@
+header {
+    color: red;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+footer {
+    margin: 20px;
+}
+
+footer, a {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer a:hover {
+    color: cyan;
+}
+
+.container {
+    display: flex;
+}
+
+p, h2 {
+    text-align: left;
+}
+
+div, header, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial;
+    margin: 0 auto;
+    background-color: skyblue;
+    width: 1200px;
+    font-size: 20px;
+}
+
+nav {
+    flex:1;
+    padding: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;  
+    text-decoration: none;
+    background: red;   
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    flex:3;
+    padding: 20px;
+}
+
+
+table {
+    width: 100%;
+}
+
+
+td, th {
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 768px) { 
+    .kolumna {
+        width: 90%;
+    }
+}

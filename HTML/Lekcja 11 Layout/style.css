@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+footer, header {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+main {
+    /* Włączanie flexboxa */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    background: gray;
+    flex: 3;
+}
+
+aside {
+    background: lightcoral;
+    flex: 1;
+}
+
+article, aside, section, footer, p{
+    padding: 15px;
+}
+

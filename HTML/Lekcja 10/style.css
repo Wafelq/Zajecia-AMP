@@ -1,0 +1,59 @@
+.tlo {
+    background: red;
+
+    height: 400px;
+    width: 400px;
+
+    position: absolute;
+}
+
+.przyklad {
+    background: green;
+    color: honeydew;
+    width: 200px;
+    height: 200px;
+
+    margin: 10px;
+    margin-top: 20px;
+
+    padding: 10px;
+    padding-bottom: 40px;
+
+/* Typy obramowań
+
+    - solid: ciągłe
+    - dashed: przerywane w kreski
+    - dotted: przeywane w kropki
+
+*/
+
+
+    border: 5px dashed black;
+}
+
+h1 {
+    display: inline;
+}
+
+div {
+    width: 300px;
+    height: 20px;
+
+    padding: 15px;
+}
+
+.zadanie {
+    border: 5px solid black;  
+}
+
+.dashed {
+    border: 5px dashed black;
+}
+
+.dotted {
+    border: 5px dotted black;
+}
+
+.double {
+    border: 5px double black;
+}

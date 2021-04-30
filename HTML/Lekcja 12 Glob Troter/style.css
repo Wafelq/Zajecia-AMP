@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    /* Środkowanie elementów w kontenerze flex*/
+    justify-content: center;
+    background: purple;   
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: gold;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    color: #00D590;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 24px;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: purple;
+}
+
+h2 {
+    text-align: center;
+    color: gold;
+}
+
+
+.miejsce {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.zdjecie {
+    margin-right: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: gold;
+}
+
+td {
+    text-align: center;
+}
+
+td, th {
+    padding: 20px;
+    border: 1px solid gold;  
+}
+
+ul {
+    list-style-image: url(images/znak.png);
+}
+
+ul li {
+    margin: 20px;
+}
+
+ul li a {
+    color: purple;
+}

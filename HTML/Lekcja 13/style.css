@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.kontener {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+
+.kolumna {
+    width: 30%;
+    text-align: center;
+}
+
+.kolumna img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .kolumna {
+        width: 90%;
+    }
+}

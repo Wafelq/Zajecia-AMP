@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width, initial-scale=1.0">
+    <title>Zajęcia 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    function displayData() {
+        //funkcja getElementById("").value; zwróci zawartość inputa
+        var name = document.getElementById("name").value;
+        var age = document.getElementById("age").value;
+        var secondname = document.getElementById("secondname").value;
+
+        alert("Cześć " + name + " " + secondname
+            + "\nmasz " + age + " lat!");
+    }
+</script>
+
+<body>
+    <!-- Deklaracja formularza -->
+    <h3>Jak się nazywasz, i ile masz?</h3>
+    <form>
+        Imię<br>
+        <input type="text" id="name">
+
+        <br><br>
+
+        Wiek<br>
+        <input type="number" id="age">
+
+        <br><br>
+
+        Nazwisko<br>
+        <input type="sName" id="secondname">
+
+        <br><br>
+
+        <button type="button" onclick="displayData();">Przywitaj się</button>
+    </form>
+</body>
+</html>

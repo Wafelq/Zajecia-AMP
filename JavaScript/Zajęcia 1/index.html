@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    //document.write(1 === "1");
+
+    // var liczba = Number(prompt("Podaj liczbę"));
+
+    // if (liczba < 10) {
+    //     document.write("Liczba jest mniejsza od 10.")
+    // } else if (liczba === 10) {
+    //     document.write("Liczba jest równa 10.");
+    // } else {
+    //     document.write("Liczba jest większa od 10.");
+    // }
+
+    // if (liczba <= 10) {
+    //     document.write("<br>Liczba jest mniejsza bądź równa 10")
+    // }
+
+    // if (liczba !== 23) {
+    //     document.write("<br>Liczba nie jest równa 23.");
+    // } else {
+    //     document.write("<br>Liczba jest równa 23");
+    // }
+
+
+    var imie = prompt("Podaj imię");
+
+        // oznacza "lub", czyli dowolny warunek musi być prawdziwy
+    if(imie === "Ania" || imie === "Asia") {
+        document.write("<br>Podano imię Ania lub Asia")
+    }
+
+        // && oznacza "i", czyli KAŻDY warunek musi być prawdziwy
+    if(imie !== "Paulina" && imie !== "Agata") {
+        document.write("<br>Nie podano imion: Paulina i Agata.")
+    }
+
+    var haslo = "maslo";
+    var mojeHaslo = prompt("Podaj hasło");
+
+    if (haslo !== mojeHaslo) {
+        alert ("Złe hasło.");
+    } else {
+        alert("Witamy w programie.")
+    }
+
+
+    // var cieplo = 32;
+
+    // var temperatura = prompt("Podaj temperature");
+
+    // if (temperatura <= cieplo) {
+    //     alert ("Jest zimno");
+    // } else {
+    //     alert ("Jest cieplo")
+    // }
+    
+</script>
+
+<body>
+
+</body>
+</html>

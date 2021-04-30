@@ -1,0 +1,48 @@
+/* Odwołanie do wszystkich znaczników */
+h2 {
+    color: red;
+}
+
+h1 {
+    color: darkturquoise ;
+    font-size: 50px;  
+    
+    text-align: center;
+}
+
+h2 {
+    background-color: turquoise;
+    color: white;
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+* {
+    font-family: 'Arial';
+}
+
+b {
+    color: slateblue;
+}
+
+i {
+    color: hotpink;
+}
+
+code {
+    color: navy;
+}
+
+
+p {
+    
+
+    line-height: 35px;
+}
+
+/* background: rgb(49, 49, 49); */
