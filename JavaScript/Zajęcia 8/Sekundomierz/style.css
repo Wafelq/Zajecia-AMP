@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #232323;
+}
+
+input {
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+button {
+    border: 0;
+    padding: 10px 25px;
+    background-color: darkgray;
+    transition: background-color 0.5s;
+    
+}
+
+button:hover {
+    background: lightblue;
+    color: black;
+    transition: background-color 0.5s;
+    
+}
+
+h2 {
+    font-size: 40px;
+}
