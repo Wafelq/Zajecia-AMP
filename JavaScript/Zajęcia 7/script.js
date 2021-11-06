@@ -14,5 +14,5 @@ function displayFruits() {
     
     for (var i = 0; i < fruits.length; i++) {
         document.getElementById("vegeList").innerHTML += `<li>${fruits[i]}</li>`;
-    }  
+    }
 }
