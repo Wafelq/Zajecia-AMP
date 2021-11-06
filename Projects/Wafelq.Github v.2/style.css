@@ -47,6 +47,10 @@ div image {
         padding: 0;
         overflow: hidden;
     }
+    .logo {
+        height: 25%;
+        width: 25%;
+    }
 }
 
   /* If the screen size is 600px or less, set the font-size of <div> to 30px */
