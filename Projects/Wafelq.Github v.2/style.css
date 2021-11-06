@@ -44,7 +44,7 @@ div image {
 
 @media only screen and (max-width: 801px) {
     .articletext {
-        padding: 0px 18px;
+        padding: 5px 18px;
         overflow: hidden;
     }
 }
