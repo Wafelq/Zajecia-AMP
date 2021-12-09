@@ -6,6 +6,10 @@ body {
   justify-content: center;
 }
 
+.size1 h1 {
+  font-size: 20px;
+}
+
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
   color: #fff;
